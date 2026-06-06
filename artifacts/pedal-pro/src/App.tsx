@@ -124,10 +124,11 @@ function Home() {
       >
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
           <div 
-            className="text-2xl font-bold text-primary cursor-pointer tracking-tight"
+            className="text-2xl font-bold cursor-pointer tracking-tight"
             onClick={() => scrollToSection("home")}
           >
-            Pedal Pro
+            <span style={{ color: "#2563eb" }}>PEDAL</span>{" "}
+            <span style={{ color: "#d4a017" }}>UNLIMITED</span>
           </div>
 
           {/* Desktop Nav */}
@@ -327,7 +328,10 @@ function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
             <div className="flex flex-col items-start">
-              <h3 className="text-2xl font-bold mb-6 tracking-tight">Pedal Pro</h3>
+              <h3 className="text-2xl font-bold mb-6 tracking-tight">
+                <span style={{ color: "#2563eb" }}>PEDAL</span>{" "}
+                <span style={{ color: "#d4a017" }}>UNLIMITED</span>
+              </h3>
               <p className="text-white/80 mb-8 max-w-sm">
                 Premium bicycles for serious cyclists and everyday riders alike. Quality, performance, and trust in every ride.
               </p>
@@ -374,7 +378,7 @@ function Home() {
           </div>
 
           <div className="border-t border-white/10 pt-8 text-center text-white/60 text-sm flex flex-col md:flex-row justify-between items-center">
-            <p>© 2025 Pedal Pro. All rights reserved.</p>
+            <p>© 2025 PEDAL UNLIMITED. All rights reserved.</p>
             <div className="mt-4 md:mt-0 flex space-x-4">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
