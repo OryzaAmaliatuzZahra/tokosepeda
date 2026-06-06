@@ -1,0 +1,66 @@
+10:22:52.303
+artifacts/pedal-pro typecheck:               Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+10:22:52.303
+artifacts/pedal-pro typecheck:                 Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+10:22:52.303
+artifacts/pedal-pro typecheck:                   Types of property 'ease' are incompatible.
+10:22:52.303
+artifacts/pedal-pro typecheck:                     Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+10:22:52.303
+artifacts/pedal-pro typecheck: src/App.tsx(223,13): error TS2322: Type '{ hidden: { opacity: number; y: number; }; visible: { opacity: number; y: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+10:22:52.303
+artifacts/pedal-pro typecheck:   Property 'visible' is incompatible with index signature.
+10:22:52.303
+artifacts/pedal-pro typecheck:     Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+10:22:52.303
+artifacts/pedal-pro typecheck:       Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+10:22:52.303
+artifacts/pedal-pro typecheck:         Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+10:22:52.303
+artifacts/pedal-pro typecheck:           Types of property 'transition' are incompatible.
+10:22:52.304
+artifacts/pedal-pro typecheck:             Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+10:22:52.304
+artifacts/pedal-pro typecheck:               Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+10:22:52.304
+artifacts/pedal-pro typecheck:                 Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+10:22:52.304
+artifacts/pedal-pro typecheck:                   Types of property 'ease' are incompatible.
+10:22:52.304
+artifacts/pedal-pro typecheck:                     Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+10:22:52.304
+artifacts/pedal-pro typecheck: src/App.tsx(283,13): error TS2322: Type '{ hidden: { opacity: number; y: number; }; visible: { opacity: number; y: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+10:22:52.304
+artifacts/pedal-pro typecheck:   Property 'visible' is incompatible with index signature.
+10:22:52.304
+artifacts/pedal-pro typecheck:     Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+10:22:52.304
+artifacts/pedal-pro typecheck:       Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+10:22:52.304
+artifacts/pedal-pro typecheck:         Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+10:22:52.305
+artifacts/pedal-pro typecheck:           Types of property 'transition' are incompatible.
+10:22:52.305
+artifacts/pedal-pro typecheck:             Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+10:22:52.305
+artifacts/pedal-pro typecheck:               Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+10:22:52.306
+artifacts/pedal-pro typecheck:                 Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+10:22:52.306
+artifacts/pedal-pro typecheck:                   Types of property 'ease' are incompatible.
+10:22:52.307
+artifacts/pedal-pro typecheck:                     Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+10:22:52.336
+artifacts/pedal-pro typecheck: Failed
+10:22:52.354
+/opt/buildhome/repo/artifacts/pedal-pro:
+10:22:52.354
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/pedal-pro@0.0.0 typecheck: `tsc -p tsconfig.json --noEmit`
+10:22:52.354
+Exit status 2
+10:22:52.390
+ ELIFECYCLE  Command failed with exit code 2.
+10:22:52.425
+ ELIFECYCLE  Command failed with exit code 2.
+10:22:52.448
+Failed: error occurred while running build command
