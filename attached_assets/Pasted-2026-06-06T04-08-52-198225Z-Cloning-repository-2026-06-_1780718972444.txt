@@ -1,0 +1,79 @@
+2026-06-06T04:08:52.198225Z	Cloning repository...
+2026-06-06T04:08:53.211488Z	From https://github.com/OryzaAmaliatuzZahra/tokosepeda
+2026-06-06T04:08:53.211876Z	 * branch            6c4c9bd7f4499032bdf1d4fe65575e8ad960e3e0 -> FETCH_HEAD
+2026-06-06T04:08:53.211956Z	
+2026-06-06T04:08:53.304387Z	HEAD is now at 6c4c9bd Update build output directory to simplify deployment
+2026-06-06T04:08:53.304766Z	
+2026-06-06T04:08:53.347356Z	
+2026-06-06T04:08:53.347664Z	Using v2 root directory strategy
+2026-06-06T04:08:53.36267Z	Success: Finished cloning repository files
+2026-06-06T04:08:55.16007Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-06-06T04:08:55.16042Z	
+2026-06-06T04:08:55.329493Z	No Wrangler configuration file found. Continuing.
+2026-06-06T04:08:55.504322Z	Detected the following tools from environment: pnpm@10.26.1, nodejs@22.16.0
+2026-06-06T04:08:56.156541Z	Preparing pnpm@10.26.1 for immediate activation...
+2026-06-06T04:08:58.250538Z	Installing project dependencies: pnpm install
+2026-06-06T04:08:58.748472Z	Scope: all 9 workspace projects
+2026-06-06T04:08:58.812293Z	Lockfile is up to date, resolution step is skipped
+2026-06-06T04:08:58.855417Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-06-06T04:08:58.901058Z	Packages: +485
+2026-06-06T04:08:58.901801Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-06-06T04:08:59.856935Z	Progress: resolved 485, reused 0, downloaded 171, added 146
+2026-06-06T04:09:00.856992Z	Progress: resolved 485, reused 0, downloaded 210, added 163
+2026-06-06T04:09:01.862793Z	Progress: resolved 485, reused 0, downloaded 389, added 252
+2026-06-06T04:09:02.859313Z	Progress: resolved 485, reused 0, downloaded 484, added 484
+2026-06-06T04:09:03.00854Z	Progress: resolved 485, reused 0, downloaded 485, added 485, done
+2026-06-06T04:09:03.270618Z	.../esbuild@0.27.3/node_modules/esbuild postinstall$ node install.js
+2026-06-06T04:09:03.354708Z	.../esbuild@0.27.3/node_modules/esbuild postinstall: Done
+2026-06-06T04:09:03.710015Z	
+2026-06-06T04:09:03.710286Z	devDependencies:
+2026-06-06T04:09:03.71034Z	+ prettier 3.8.3
+2026-06-06T04:09:03.710387Z	+ typescript 5.9.3
+2026-06-06T04:09:03.71042Z	
+2026-06-06T04:09:03.74153Z	. preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+2026-06-06T04:09:03.786515Z	. preinstall: Done
+2026-06-06T04:09:03.939212Z	Done in 5.5s using pnpm v10.26.1
+2026-06-06T04:09:03.987827Z	Executing user command: pnpm run build
+2026-06-06T04:09:04.569626Z	
+2026-06-06T04:09:04.570249Z	> workspace@0.0.0 build /opt/buildhome/repo
+2026-06-06T04:09:04.570648Z	> pnpm run typecheck && pnpm -r --if-present run build
+2026-06-06T04:09:04.570741Z	
+2026-06-06T04:09:04.951766Z	
+2026-06-06T04:09:04.952038Z	> workspace@0.0.0 typecheck /opt/buildhome/repo
+2026-06-06T04:09:04.952934Z	> pnpm run typecheck:libs && pnpm -r --filter "./artifacts/**" --filter "./scripts" --if-present run typecheck
+2026-06-06T04:09:04.953029Z	
+2026-06-06T04:09:05.349677Z	
+2026-06-06T04:09:05.350034Z	> workspace@0.0.0 typecheck:libs /opt/buildhome/repo
+2026-06-06T04:09:05.35013Z	> tsc --build
+2026-06-06T04:09:05.350183Z	
+2026-06-06T04:09:07.98462Z	Scope: 4 of 9 workspace projects
+2026-06-06T04:09:07.992515Z	artifacts/api-server typecheck$ tsc -p tsconfig.json --noEmit
+2026-06-06T04:09:07.993288Z	artifacts/mockup-sandbox typecheck$ tsc -p tsconfig.json --noEmit
+2026-06-06T04:09:07.993706Z	artifacts/pedal-pro typecheck$ tsc -p tsconfig.json --noEmit
+2026-06-06T04:09:07.994342Z	scripts typecheck$ tsc -p tsconfig.json --noEmit
+2026-06-06T04:09:09.575872Z	scripts typecheck: Done
+2026-06-06T04:09:10.212905Z	artifacts/api-server typecheck: Done
+2026-06-06T04:09:15.138936Z	artifacts/mockup-sandbox typecheck: Done
+2026-06-06T04:09:15.259053Z	artifacts/pedal-pro typecheck: Done
+2026-06-06T04:09:15.65533Z	Scope: 8 of 9 workspace projects
+2026-06-06T04:09:15.661776Z	artifacts/mockup-sandbox build$ vite build
+2026-06-06T04:09:16.211403Z	artifacts/mockup-sandbox build: [31mfailed to load config from /opt/buildhome/repo/artifacts/mockup-sandbox/vite.config.ts[39m
+2026-06-06T04:09:16.213809Z	artifacts/mockup-sandbox build: [31merror during build:
+2026-06-06T04:09:16.214392Z	artifacts/mockup-sandbox build: Error: PORT environment variable is required but was not provided.
+2026-06-06T04:09:16.214815Z	artifacts/mockup-sandbox build:     at file:///opt/buildhome/repo/artifacts/mockup-sandbox/node_modules/.vite-temp/vite.config.ts.timestamp-1780718955953-11a563b4394f6.mjs:145:9
+2026-06-06T04:09:16.215128Z	artifacts/mockup-sandbox build:     at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+2026-06-06T04:09:16.215747Z	artifacts/mockup-sandbox build:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+2026-06-06T04:09:16.21623Z	artifacts/mockup-sandbox build:     at async loadConfigFromBundledFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35936:12)
+2026-06-06T04:09:16.217091Z	artifacts/mockup-sandbox build:     at async bundleAndLoadConfigFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35824:17)
+2026-06-06T04:09:16.218196Z	artifacts/mockup-sandbox build:     at async loadConfigFromFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35791:42)
+2026-06-06T04:09:16.218342Z	artifacts/mockup-sandbox build:     at async resolveConfig (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35440:22)
+2026-06-06T04:09:16.21849Z	artifacts/mockup-sandbox build:     at async createBuilder (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:33895:19)
+2026-06-06T04:09:16.218682Z	artifacts/mockup-sandbox build:     at async CAC.<anonymous> (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/cli.js:629:10)[39m
+2026-06-06T04:09:16.250245Z	artifacts/mockup-sandbox build: Failed
+2026-06-06T04:09:16.267026Z	/opt/buildhome/repo/artifacts/mockup-sandbox:
+2026-06-06T04:09:16.267336Z	 ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/mockup-sandbox@2.0.0 build: `vite build`
+2026-06-06T04:09:16.267419Z	Exit status 1
+2026-06-06T04:09:16.316459Z	 ELIFECYCLE  Command failed with exit code 1.
+2026-06-06T04:09:16.341302Z	Failed: Error while executing user command. Exited with error code: 1
+2026-06-06T04:09:16.346406Z	Failed: build command exited with code: 1
+2026-06-06T04:09:16.989781Z	Failed: error occurred while running build command
