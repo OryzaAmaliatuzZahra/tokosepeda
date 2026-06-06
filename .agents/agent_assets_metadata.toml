@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "g7TJpHkOX1dvCdNY2Jey-"
+uri = "file://artifacts/pedal-pro/public/images/hero-bg.png"
+type = "image"
+title = "Mountain biker action shot"
+
+[[generated]]
+id = "ibKLjG4wrLcBkvmYGm6Fc"
+uri = "file://artifacts/pedal-pro/public/images/product-1.png"
+type = "image"
+title = "Mountain Explorer Pro bike"
+
+[[generated]]
+id = "4DtGpWBNArmlFyOGwEae0"
+uri = "file://artifacts/pedal-pro/public/images/product-2.png"
+type = "image"
+title = "City Cruiser Elite bike"
+
+[[generated]]
+id = "CJIcsSIM8BctDJD_6lMNh"
+uri = "file://artifacts/pedal-pro/public/images/product-3.png"
+type = "image"
+title = "Road Racer X1 bike"
+
+[[generated]]
+id = "_kgpcJshwDAR8ZNvjCxds"
+uri = "file://artifacts/pedal-pro/public/images/product-4.png"
+type = "image"
+title = "Trail Blazer 29er bike"
+
+[[generated]]
+id = "hM0x-yNSDHFmDXBkPVZ_y"
+uri = "file://artifacts/pedal-pro/public/images/product-5.png"
+type = "image"
+title = "Hybrid Commuter Plus bike"
+
+[[generated]]
+id = "rcCcp3M2W_rnLB4PtzuvS"
+uri = "file://artifacts/pedal-pro/public/images/product-6.png"
+type = "image"
+title = "Kids Adventure Bike"
+
+[[generated]]
+id = "lLaR9zVZN3W1r3nP2SHJa"
+uri = "file://artifacts/pedal-pro/public/images/category-mountain.png"
+type = "image"
+title = "Mountain biking lifestyle"
+
+[[generated]]
+id = "0y7AHtQsdnOn0azTO8NX_"
+uri = "file://artifacts/pedal-pro/public/images/category-road.png"
+type = "image"
+title = "Road biking lifestyle"
+
+[[generated]]
+id = "fAzyB2tDtEijqTTdjNGZF"
+uri = "file://artifacts/pedal-pro/public/images/category-hybrid.png"
+type = "image"
+title = "Hybrid biking lifestyle"
